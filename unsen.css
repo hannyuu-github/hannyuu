@@ -1,0 +1,427 @@
+/* charset */
+@charset "UTF-8";
+
+/* table */
+table.unsena {
+  height: 100%;
+  width: 100%;
+  table-layout: fixed;
+  border-collapse: collapse;
+}
+
+/* th */
+th.unsen {
+  height: 100%;
+  width: 100%;
+  white-space: nowrap;
+  font-size: 80%;
+  text-align: center;
+  vertical-align: middle;
+  background-color: #cccccc;
+}
+th.unsen_kakunin {
+  height: 100%;
+  width: 100%;
+  white-space: nowrap;
+  font-size: 80%;
+  text-align: left;
+  vertical-align: middle;
+  background-color: #cccccc;
+}
+/* tr */
+
+/* td */
+td.unsen {
+  height: 100%;
+  width: 100%;
+  white-space: nowrap;
+  font-size: 100%;
+  text-align: center;
+  vertical-align: middle;
+  background-color: #cccccc;
+}
+td.furigana {
+  height: 100%;
+  width: 40%;
+  white-space: nowrap;
+  font-size: 100%;
+  text-align: center;
+  vertical-align: middle;
+  background-color: #ffb299;
+}
+td.furigana_box {
+  height: 100%;
+  width: 30%;
+  white-space: nowrap;
+  font-size: 80%;
+  text-align: center;
+  vertical-align: middle;
+}
+td.shimei {
+  height: 100%;
+  width: 40%;
+  white-space: nowrap;
+  font-size: 100%;
+  text-align: center;
+  vertical-align: middle;
+  background-color: #ffb299;
+}
+td.shimei_box {
+  height: 100%;
+  width: 30%;
+  white-space: nowrap;
+  font-size: 100%;
+  text-align: center;
+  vertical-align: middle;
+}
+td.staffid {
+  height: 100%;
+  width: 40%;
+  white-space: nowrap;
+  font-size: 80%;
+  text-align: center;
+  vertical-align: middle;
+  background-color: #ffb299;
+}
+td.staffid_box {
+  height: 100%;
+  width: 60%;
+  white-space: nowrap;
+  font-size: 80%;
+  text-align: center;
+  vertical-align: middle;
+}
+td.gender {
+  height: 100%;
+  width: 40%;
+  white-space: nowrap;
+  font-size: 100%;
+  text-align: center;
+  vertical-align: middle;
+  background-color: #ffb299;
+}
+td.gender_box {
+  height: 100%;
+  width: 30%;
+  white-space: nowrap;
+  font-size: 100%;
+  text-align: center;
+  vertical-align: middle;
+}
+td.renrakusaki {
+  height: 100%;
+  width: 100%;
+  white-space: nowrap;
+  font-size: 80%;
+  text-align: left;
+  vertical-align: middle;
+  background-color: #ffb299;
+}
+td.denwa {
+  height: 100%;
+  width: 40%;
+  white-space: nowrap;
+  font-size: 80%;
+  text-align: center;
+  vertical-align: middle;
+  background-color: #ffb299;
+}
+td.denwa_box {
+  height: 100%;
+  width: 60%;
+  white-space: nowrap;
+  font-size: 80%;
+  text-align: center;
+  vertical-align: middle;
+}
+td.email {
+  height: 100%;
+  width: 40%;
+  white-space: nowrap;
+  font-size: 80%;
+  text-align: center;
+  vertical-align: middle;
+  background-color: #ffb299;
+}
+td.email_box {
+  height: 100%;
+  width: 60%;
+  white-space: nowrap;
+  font-size: 80%;
+  text-align: center;
+  vertical-align: middle;
+}
+td.zenkai {
+  height: 100%;
+  width: 100%;
+  white-space: nowrap;
+  font-size: 80%;
+  text-align: left;
+  vertical-align: middle;
+  background-color: #ffb299;
+}
+td.zenkai_box {
+  height: 100%;
+  width: 34%;
+  white-space: nowrap;
+  font-size: 80%;
+  text-align: left;
+  vertical-align: top;
+}
+td.kibou {
+  height: 100%;
+  width: 100%;
+  white-space: nowrap;
+  font-size: 80%;
+  text-align: left;
+  vertical-align: middle;
+  background-color: #ffb299;
+}
+td.kibou_box {
+  height: 100%;
+  width: 34%;
+  white-space: nowrap;
+  font-size: 80%;
+  text-align: left;
+  vertical-align: top;
+}
+td.sankabi {
+  height: 100%;
+  width: 100%;
+  white-space: nowrap;
+  font-size: 80%;
+  text-align: left;
+  vertical-align: middle;
+  background-color: #ffb299;
+}
+td.sankabi_box {
+  height: 30%;
+  width: 100%;
+  white-space: nowrap;
+  font-size: 80%;
+  text-align: left;
+  vertical-align: middle;
+}
+td.bento {
+  height: 100%;
+  width: 100%;
+  white-space: nowrap;
+  font-size: 80%;
+  text-align: left;
+  vertical-align: middle;
+  background-color: #ffb299;
+}
+td.bento_box {
+  height: 30%;
+  width: 100%;
+  white-space: nowrap;
+  font-size: 80%;
+  text-align: left;
+  vertical-align: middle;
+}
+td.break {
+  height: 100%;
+  width: 100%;
+  white-space: nowrap;
+  font-size: 80%;
+  text-align: left;
+  vertical-align: middle;
+  background-color: #ffb299;
+}
+td.break_box {
+  height: 30%;
+  width: 50%;
+  white-space: nowrap;
+  font-size: 80%;
+  text-align: left;
+  vertical-align: middle;
+}
+td.break_kakunin {
+  height: 100%;
+  width: 100%;
+  white-space: nowrap;
+  font-size: 80%;
+  text-align: left;
+  vertical-align: middle;
+  background-color: #ffb299;
+}
+td.break_box_kakunin {
+  height: 30%;
+  width: 30%;
+  white-space: nowrap;
+  font-size: 80%;
+  text-align: left;
+  vertical-align: middle;
+}
+td.bikou_box {
+  height: 90%;
+  width: 90%;
+  white-space: nowrap;
+  font-size: 90%;
+  text-align: left;
+  vertical-align: middle;
+}
+td.bikou {
+  height: 100%;
+  width: 100%;
+  white-space: nowrap;
+  font-size: 80%;
+  text-align: left;
+  vertical-align: middle;
+  background-color: #ffb299;
+}
+td.riyuu {
+  height: 100%;
+  width: 100%;
+  white-space: nowrap;
+  font-size: 100%;
+  text-align: left;
+  vertical-align: middle;
+  border-style :none
+}
+td.blank_line {
+  background-color: #000000;
+}
+td.blank_box {
+  height: 30%;
+  white-space: nowrap;
+  font-size: 80%;
+  text-align: left;
+  vertical-align: middle;
+  background-color: #cccccc;
+}
+
+/* testarea */
+textarea.riyuu {
+  line-height 100%;
+  height: 100%;
+  width: 50%;
+  font-size: 100%;
+  text-align: left;
+  vertical-align: bottom;
+  resize: none;
+}
+textarea.bikou {
+  line-height 100%;
+  height: 90%;
+  width: 90%;
+  font-size: 100%;
+  text-align: left;
+  vertical-align: bottom;
+  resize: none;
+}
+
+/* input */
+input.furigana_text {
+  height: 80%;
+  width: 80%;
+  font-size: 80%;
+  text-align: left;
+  vertical-align: middle;
+}
+input.shimei_text {
+  height: 80%;
+  width: 80%;
+  font-size: 80%;
+  text-align: left;
+  vertical-align: middle;
+}
+input.staffid_text {
+  height: 80%;
+  width: 80%;
+  font-size: 70%;
+  text-align: center;
+  vertical-align: middle;
+}
+input.denwa_text {
+  height: 80%;
+  width: 80%;
+  font-size: 70%;
+  text-align: center;
+  vertical-align: middle;
+}
+input.email_text {
+  height: 80%;
+  width: 80%;
+  font-size: 70%;
+  text-align: center;
+  vertical-align: middle;
+}
+input.time_text {
+  height: 30%;
+  width: 10%;
+  font-size: 80%;
+  text-align: left;
+  vertical-align: middle;
+}
+input.text_shihatsu {
+  height: 100px;
+  width: 20%;
+  font-size: 60%;
+  text-align: center;
+  vertical-align: middle;
+}
+input:focus {
+  border:solid 2px #EEA34A;
+}
+textarea:focus {
+  border:solid 2px #EEA34A;
+}
+
+/* div */
+div.ch {
+  font-size: 70%;
+}
+
+/* input */
+input[type="submit"] {
+  /* マウスが載ったとき */
+  background-image: linear-gradient(0deg, #ff99ff, #ffffff);
+  border: 100%;
+}
+input[type="submit"]:hover {
+  /* マウスが載ったとき */
+  background-image: linear-gradient(0deg, #99ffe5, #e5f4fc);
+  border: 100%;
+}
+input[type="submit"]:active {
+   /* クリックされたとき */
+   background-image: linear-gradient(180deg, #99ffe5, #e5f4fc);
+   border: 100%;
+}
+
+
+/*
+input[type=radio] {
+  width: 30px;
+  height: 30px;
+  -moz-transform:  scale(1.2);
+  -webkit-transform:  scale(1.2);
+  transform:  scale(1.2);
+  vertical-align: middle;
+}
+input[type=checkbox] {
+  height: 30px;
+  width: 30px;
+  -moz-transform:  scale(1.2);
+  -webkit-transform:  scale(1.2);
+  transform:  scale(1.2);
+  vertical-align: middle;
+}
+*/
+/*
+  select.break {
+  height: 80px;
+  width: 80px;
+  font-size: 40px;
+  text-align: center;
+  vertical-align: middle;
+}
+*/
+/* select.break {
+  height: 60px;
+  font-size: 40px;
+  text-align: center;
+  vertical-align: middle;
+}
+*/
