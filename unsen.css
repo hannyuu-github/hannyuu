@@ -19,6 +19,15 @@ th.unsen {
   vertical-align: middle;
   background-color: #cccccc;
 }
+th.unsen_memo {
+  height: 100%;
+  width: 100%;
+  white-space: nowrap;
+  font-size: 120%;
+  text-align: left;
+  vertical-align: middle;
+  background-color: #ffd700;
+}
 th.unsen_kakunin {
   height: 100%;
   width: 100%;
