@@ -21,12 +21,12 @@ th.unsen {
 }
 th.unsen_memo {
   height: 100%;
-  width: 100%;
+  width: 60px;
   white-space: nowrap;
   font-size: 120%;
   text-align: left;
   vertical-align: middle;
-  background-color: #ffd700;
+  background-color: #FFFFFF;
 }
 th.unsen_kakunin {
   height: 100%;
@@ -49,9 +49,19 @@ td.unsen {
   vertical-align: middle;
   background-color: #cccccc;
 }
-td.furigana {
+td.unsen_memo {
   height: 100%;
   width: 40%;
+  white-space: nowrap;
+  font-size: 100%;
+  font-weight: bold ;
+  text-align: left;
+  vertical-align: middle;
+  background-color: #FFFFFF;
+}
+td.furigana {
+  height: 100%;
+#  width: 40%;
   white-space: nowrap;
   font-size: 100%;
   text-align: center;
@@ -60,7 +70,7 @@ td.furigana {
 }
 td.furigana_box {
   height: 100%;
-  width: 30%;
+#  width: 30%;
   white-space: nowrap;
   font-size: 80%;
   text-align: center;
@@ -298,6 +308,24 @@ td.blank_box {
   text-align: left;
   vertical-align: middle;
   background-color: #cccccc;
+}
+td.contact_head {
+  height: 100%;
+#  width: 40%;
+  white-space: nowrap;
+  font-size: 100%;
+  text-align: left;
+  vertical-align: middle;
+  background-color: #e6e6e6;
+}
+td.contact {
+  height: 100%;
+#  width: 40%;
+  white-space: nowrap;
+  font-size: 100%;
+  text-align: left;
+  vertical-align: middle;
+#  background-color: #ffb299;
 }
 
 /* testarea */
