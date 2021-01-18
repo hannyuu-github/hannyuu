@@ -10,6 +10,15 @@ table.unsena {
 }
 
 /* th */
+th.document {
+  height: 100%;
+#  width: 40%;
+  white-space: nowrap;
+  font-size: 100%;
+  text-align: center;
+  vertical-align: middle;
+  background-color: #ddffdd;
+}
 th.unsen {
   height: 100%;
   width: 100%;
@@ -69,6 +78,32 @@ td.furigana {
   background-color: #ffb299;
 }
 td.furigana_box {
+  height: 100%;
+#  width: 30%;
+  white-space: nowrap;
+  font-size: 80%;
+  text-align: center;
+  vertical-align: middle;
+}
+td.document {
+  height: 100%;
+#  width: 40%;
+  white-space: nowrap;
+  font-size: 100%;
+  text-align: left;
+  vertical-align: middle;
+#  background-color: #ddffdd;
+}
+td.document_date {
+  height: 100%;
+#  width: 40%;
+  white-space: nowrap;
+  font-size: 100%;
+  text-align: center;
+  vertical-align: middle;
+#  background-color: #ddffdd;
+}
+td.document_box {
   height: 100%;
 #  width: 30%;
   white-space: nowrap;
