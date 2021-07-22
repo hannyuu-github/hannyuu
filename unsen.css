@@ -2,7 +2,11 @@
 @charset "UTF-8";
 
 /* table */
-table.unsena {
+table.unsen {
+  table-layout: fixed;
+  border-collapse: collapse;
+}
+table.maintenance {
   height: 100%;
   width: 100%;
   table-layout: fixed;
@@ -28,6 +32,15 @@ th.unsen {
   vertical-align: middle;
   background-color: #cccccc;
 }
+th.maintenance {
+  height: 100%;
+  width: 100%;
+  white-space: nowrap;
+  font-size: 200%;
+  text-align: center;
+  vertical-align: middle;
+  background-color: #ffffe0;
+}
 th.unsen_memo {
   height: 100%;
   width: 60px;
@@ -50,6 +63,15 @@ th.unsen_kakunin {
 
 /* td */
 td.unsen {
+  height: 100%;
+  width: 100%;
+  white-space: nowrap;
+  font-size: 100%;
+  text-align: center;
+  vertical-align: middle;
+  background-color: #cccccc;
+}
+td.maintenance {
   height: 100%;
   width: 100%;
   white-space: nowrap;
